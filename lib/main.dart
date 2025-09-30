@@ -17,7 +17,9 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Game Shop'),
+      home: MyHomePage(
+        title: 'Game Shop',
+      ),
     );
   }
 }
